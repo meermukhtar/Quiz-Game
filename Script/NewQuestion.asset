@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ad8c913a8817942ba5831af8dad14a, type: 3}
+  m_Name: NewQuestion
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 1.What is the capital of France?
+    options:
+    - Berlin
+    - ' Madrid'
+    - ' Paris'
+    - Rome
+    correctOptionIndex: 2
+  - questionText: 2. Which planet is known as the Red Planet?
+    options:
+    - Venus
+    - Mars
+    - Jupiter
+    - Saturn
+    correctOptionIndex: 1
+  - questionText: 3. What is the largest mammal in the world?
+    options:
+    - African Elephant
+    - ' Blue Whale'
+    - Great White Shark
+    - Giraffe
+    correctOptionIndex: 1
+  - questionText: 4.Who wrote "Hamlet"?
+    options:
+    - ' Mark Twain'
+    - William Shakespeare
+    - Charles Dickens
+    - Jane Austen
+    correctOptionIndex: 1
