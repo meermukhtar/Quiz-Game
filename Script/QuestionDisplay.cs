@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement; // Ensure you have this for using Button
-
+//fetcing the questions and displaying 
 public class QuestionDisplay : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI QuestionText; // Text for the question
