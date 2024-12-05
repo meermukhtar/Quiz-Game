@@ -18,7 +18,7 @@ public class QuestionDisplay : MonoBehaviour
         DisplayQuestion(); // Display the first question when the game starts
     }
 
-    // Method to display the current question based on currentQuestionIndex
+    // Method to display the current question based on currentQuestionIndex to select correct index
     private void DisplayQuestion()
     {
         if (QuestionData != null && QuestionData.questions.Length > 0)
