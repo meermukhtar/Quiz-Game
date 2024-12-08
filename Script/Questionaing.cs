@@ -5,7 +5,7 @@ public class Question
 {
     public string questionText; // The question itself
     public string[] options;     // Array for answer options
-    public int correctOptionIndex; // Index of the correct option
+    public int correctOptionIndex; // Index of the correct option for answer
 }
 
 [CreateAssetMenu(fileName = "NewQuestionList", menuName = "Questions/Questioning")]
