@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement; // Ensure you have this for using Button
 //fetcing the questions and displaying 
 public class QuestionDisplay : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI QuestionText; // Text for the question
+    [SerializeField] private TextMeshProUGUI QuestionText; // Text for the questions
     [SerializeField] private Questionaing QuestionData; // Reference to the ScriptableObject
     [SerializeField] private Button[] OptionButtons; // Array of buttons for options
 
